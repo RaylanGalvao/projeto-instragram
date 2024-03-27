@@ -6,33 +6,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" />
 
-  <title>Sujeitogram - Sua rede social</title>
+  <title>Faça seu cadastro - Sujeitogram</title>
 </head>
 <body>
   <div class="wrapper">
 
-    <div id="conteiner">
+    <div id="conteiner-singup">
 
-      <div class="colum left">
-        <div class="main"></div>
-      </div>
-
-      <div class="colum right">
+      <div class="colum">
         <div class="login_panel">
           <div class="logo">
             <img class="logo_img" src="assets/logo.png" alt="logo do sujeitogram">
           </div>
+
+          <div class="message">
+            <span>Cadastre-se para ver fotos e videos dos seus amigos</span>
+          </div>
+
+          <button class="cta-button">
+            Entrar com o Facebook
+          </button>
+
+          <div class="divisor-conteiner">
+            <div class="line"></div>
+            <div class="divisor-tag">ou</div>
+            <div class="line"></div>
+          </div>
+
           <form>
-            <input placeholder="Telefone, Usuario ou email" type="text" name="surname">
-
-            <input placeholder="Senha" type="password" name="password">
-
+            <input type="text" name="email" placeholder="Numero de celular ou email">
+            <input type="text" name="nome" placeholder="Nome completo">
+            <input type="text" name="username" placeholder="Nome de usuario">
+            <input type="password" name="password" placeholder="Senha">
             <input type="submit" value="Enviar">
           </form>
         </div>
 
         <div class="infobox">
-          <p>Não possui uma conta? <a href="singup.html">Cadastre-se</a></p>
+          <p>Tem uma conta? <a href="index.html">Conecte-se</a></p>
         </div>
 
         <div class="get-app-panel">
@@ -50,7 +61,7 @@
       </div>
 
     </div>
-    <footer>
+    <footer class="footer-singup">
       <div class="footer-inner">
         <a href="#">Abaut us</a>
         <a href="#">Suport</a>
